@@ -1,0 +1,4 @@
+# Ignore logs #
+*.log
+# Ignore ShaderCache files #
+Agricultural Simulator/Library/ShaderCache/*/*.bin
