@@ -600,11 +600,13 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 1
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 6c105825-8d65-4455-87b5-aee4765a6f41
-  projectName: Agricultural Simulator (1)
+  cloudProjectId: 288ef8d3-f0d4-4029-895c-f7a5905c47ad
+  projectName: _2D v3
   organizationId: aditya-3728078
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

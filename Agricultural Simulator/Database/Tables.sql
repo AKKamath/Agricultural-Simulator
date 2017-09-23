@@ -173,6 +173,8 @@ ALTER TABLE `Tile`
 --
 ALTER TABLE `User`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `User` 
+  CHANGE `Password` `Password` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL;
 --
 -- Constraints for dumped tables
 --
