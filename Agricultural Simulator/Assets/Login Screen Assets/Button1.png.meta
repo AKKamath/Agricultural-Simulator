@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 96228c624cb576a4a9e3567af64d1199
-timeCreated: 1506244664
+timeCreated: 1506267249
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -8,7 +8,7 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -47,8 +47,8 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaUsage: 1
-  alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   maxTextureSizeSet: 0
@@ -63,10 +63,26 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
+    outline:
+    - - {x: -139.58473, y: 34.5}
+      - {x: -143, y: 31.717896}
+      - {x: -143, y: -30.790531}
+      - {x: -139.31973, y: -34.5}
+      - {x: 139.90878, y: -34.5}
+      - {x: 143, y: -31.10207}
+      - {x: 142.71405, y: 30.63124}
+      - {x: 140.52701, y: 34.5}
     physicsShape: []
   spritePackingTag: 
   userData: 

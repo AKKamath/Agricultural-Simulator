@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4fbea3f082d84214a93f3b192b63c29c
+timeCreated: 1506267029
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Viney Times
+  fontNames:
+  - Viney Times
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

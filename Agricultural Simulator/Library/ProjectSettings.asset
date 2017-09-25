@@ -386,6 +386,9 @@ PlayerSettings:
   switchUdpSendBufferSize: 9
   switchUdpReceiveBufferSize: 42
   switchSocketBufferEfficiency: 4
+  switchSocketInitializeEnabled: 1
+  switchNetworkInterfaceManagerInitializeEnabled: 1
+  switchPlayerConnectionEnabled: 1
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
   ps4NPTrophyPackPath: 
@@ -607,7 +610,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 288ef8d3-f0d4-4029-895c-f7a5905c47ad
-  projectName: _2D v3
+  projectName: Agricultural Simulator
   organizationId: aditya-3728078
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
