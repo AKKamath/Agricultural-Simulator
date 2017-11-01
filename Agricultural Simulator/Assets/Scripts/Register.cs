@@ -117,7 +117,10 @@ public class Register : MonoBehaviour
 		WWW hs_post = new WWW(post_url, form);
 		yield return hs_post;
 		// Download complete, update popup
-		panelText.text = Regex.Replace(hs_post.text, "#.*", "");
+		if (hs_post.text == "")
+			panelText.text = "Please check internet connection";
+		else
+			panelText.text = Regex.Replace(hs_post.text, "#.*", "");
 		if (Regex.Replace (hs_post.text, ".*#", "") != "" && Regex.Replace (hs_post.text, ".*#", "") != hs_post.text)
 			PlayerPrefs.SetInt ("Id", int.Parse (Regex.Replace (hs_post.text, ".*#", "")));
 		t = hs_post.text;

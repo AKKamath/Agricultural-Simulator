@@ -7,10 +7,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `id2976365_dead_farmers_society`
---
-
 -- --------------------------------------------------------
 
 --
@@ -94,14 +90,10 @@ CREATE TABLE `Tile` (
 CREATE TABLE `User` (
   `Id` int(11) NOT NULL,
   `Username` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
-  `Password` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `Password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `Join_date` date NOT NULL,
   `Currency` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Indexes for dumped tables
---
 
 --
 -- Indexes for table `Inventory`
@@ -142,7 +134,8 @@ ALTER TABLE `Tile`
 -- Indexes for table `User`
 --
 ALTER TABLE `User`
-  ADD PRIMARY KEY (`Id`);
+  ADD PRIMARY KEY (`Id`),
+  ADD UNIQUE KEY `Username` (`Username`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -172,9 +165,7 @@ ALTER TABLE `Tile`
 -- AUTO_INCREMENT for table `User`
 --
 ALTER TABLE `User`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
-ALTER TABLE `User` 
-  CHANGE `Password` `Password` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 --
 -- Constraints for dumped tables
 --
@@ -208,3 +199,4 @@ ALTER TABLE `Tile`
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+

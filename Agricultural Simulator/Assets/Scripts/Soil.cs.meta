@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3570bf5a1733a054087d24b2500e8082
+timeCreated: 1509111807
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - toolTip: {fileID: 1449446050047576, guid: 9c4521dfde7ab6d4db2c5ec8b90ad418, type: 2}
+  - defSprite: {fileID: 21300000, guid: 0fd7741f1a99a2e4fab2053348c5d38e, type: 3}
+  - wateredImage: {fileID: 21300000, guid: 66d3cc17a22e5b04496c422a7a38c88e, type: 3}
+  - hoed: {fileID: 1279946066398044, guid: d8305ee07c8fb1d449af2ed36c93d734, type: 2}
+  - seeded: {fileID: 1156966666932740, guid: d4c9606b74a71ee489ea3082944e5a69, type: 2}
+  - childPlant: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
